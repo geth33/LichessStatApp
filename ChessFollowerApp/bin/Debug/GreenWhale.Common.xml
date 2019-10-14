@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GreenWhale.Common</name>
+    </assembly>
+    <members>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.ByteExtensionHelper">
+            <summary>
+            字节数据扩展帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.ByteExtensionHelper.ToByteArray(System.String)">
+            <summary>
+            转换为字节数组
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.ByteExtensionHelper.ToByteArray(System.Byte[])">
+            <summary>
+            转换为字节数组字符串
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.CookieSetting">
+            <summary>
+            Cookie设置
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.CookieSetting.Language">
+            <summary>
+            语言
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.CookieSetting.MenuType">
+            <summary>
+            菜单类型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.CookieSetting.PageSize">
+            <summary>
+            页面大小
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.CookieSetting.WebUI">
+            <summary>
+            页面类型
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.ExtensionHelper">
+            <summary>
+            扩展帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.ExtensionHelper.GetObject``1(System.Security.Claims.Claim)">
+            <summary>
+            获取对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="session"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.ExtensionHelper.GetObject``1(Microsoft.AspNetCore.Http.ISession,System.String)">
+            <summary>
+            获取对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="session"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.ExtensionHelper.SetObject(Microsoft.AspNetCore.Http.ISession,System.String,System.Object)">
+            <summary>
+            写对象
+            </summary>
+            <param name="session"></param>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.JsonBase`1">
+            <summary>
+            JSON父级
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.JsonBase`1.text">
+            <summary>
+            字符串
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.JsonBase`1.id">
+            <summary>
+            ID值
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.JsonBase`1.icon">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.JsonBase`1.expanded">
+            <summary>
+            是否展开
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Model.JsonBase`1.items">
+            <summary>
+            子元素列表
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.Result`1">
+            <summary>
+            执行结果
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Model.Result`1.#ctor(System.Boolean,System.String,`0)">
+            <summary>
+            执行结果
+            </summary>
+            <param name="isSuccess">是否成功</param>
+            <param name="message">执行结果</param>
+            <param name="data"></param>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Result`1.IsSuccess">
+            <summary>
+            是否成功
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Result`1.Message">
+            <summary>
+            消息内容
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Result`1.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.SessionUser.UserId">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.SessionUser.UserAccount">
+            <summary>
+            用户账号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.SessionUser.UserPwd">
+            <summary>
+            用户密码
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.SessionUser.UserName">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.SessionUser.UserCode">
+            <summary>
+            ID号码
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Model.SessionUser.#ctor(System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            会话用户
+            </summary>
+            <param name="userId"></param>
+            <param name="userAccount"></param>
+            <param name="userPwd"></param>
+            <param name="userName"></param>
+            <param name="UserCode"></param>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Model.SessionUser.#ctor">
+            <summary>
+            会话用户
+            </summary>
+        </member>
+    </members>
+</doc>

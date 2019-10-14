@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GreenWhale.JWTAuthorize</name>
+    </assembly>
+    <members>
+        <member name="P:GreenWhale.JWTAuthorize.Internal.ISessionUser.UserAccount">
+            <summary>
+            用户账号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.JWTAuthorize.Internal.ISessionUser.UserCode">
+            <summary>
+            ID号码
+            </summary>
+        </member>
+        <member name="P:GreenWhale.JWTAuthorize.Internal.ISessionUser.UserId">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.JWTAuthorize.Internal.ISessionUser.UserName">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.JWTAuthorize.Internal.ISessionUser.UserPwd">
+            <summary>
+            用户密码
+            </summary>
+        </member>
+        <member name="T:GreenWhale.JWTAuthorize.Internal.ISignInHelper">
+            <summary>
+            登录帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.JWTAuthorize.Internal.ISignInHelper.Login(GreenWhale.JWTAuthorize.Internal.ISessionUser,GreenWhale.JWTAuthorize.Internal.LoginSuccessDelegate)">
+            <summary>
+            登录
+            </summary>
+            <param name="userinfo"></param>
+        </member>
+        <member name="M:GreenWhale.JWTAuthorize.Internal.ISignInHelper.AccessToken(GreenWhale.JWTAuthorize.Internal.ISessionUser,GreenWhale.JWTAuthorize.Internal.LoginSuccessDelegate)">
+            <summary>
+            获取AccessToken
+            </summary>
+            <param name="userinfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.JWTAuthorize.Internal.JWTHelper.AccessToken(GreenWhale.JWTAuthorize.Internal.ISessionUser,System.String)">
+            <summary>
+            通过用户和密码换取AccessToken
+            </summary>
+            <param name="sessionUser">用户信息</param>
+            <param name="securityKey">加密密钥</param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.JWTAuthorize.Internal.JWTHelper.Login(GreenWhale.JWTAuthorize.Internal.ISessionUser,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            用户登录
+            </summary>
+            <param name="sessionUser">用户信息</param>
+            <param name="contextAccessor">Http上下文</param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.JWTAuthorize.Internal.JwtHelperExtension">
+            <summary>
+            JWT验证类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.JWTAuthorize.Internal.JwtHelperExtension.AddJwtAuthorize(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{GreenWhale.JWTAuthorize.Internal.JwtAuthorizeOption})">
+            <summary>
+            配置JWT认证
+            </summary>
+            <param name="services"></param>
+            <param name="securtyKey">密钥</param>
+            <param name="Issuer">发证机关</param>
+            <param name="Audience">身份</param>
+        </member>
+        <member name="T:GreenWhale.JWTAuthorize.Internal.LoginSuccessDelegate">
+            <summary>
+            登陆成功委托
+            </summary>
+            <param name="user">用户信息</param>
+        </member>
+        <member name="T:GreenWhale.JWTAuthorize.Internal.SignInExtension">
+            <summary>
+            登录帮助类扩展
+            </summary>
+        </member>
+        <member name="M:GreenWhale.JWTAuthorize.Internal.SignInExtension.AddSignInHelper(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{GreenWhale.JWTAuthorize.Internal.SignInOption})">
+            <summary>
+            添加登陆帮助类
+            </summary>
+            <param name="collection">服务集合</param>
+            <param name="signInOption">设置选项</param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.JWTAuthorize.Internal.SignInHelper">
+            <summary>
+            登录帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.JWTAuthorize.Internal.SignInHelper.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,System.Func{GreenWhale.JWTAuthorize.Internal.SignInOption})">
+            <summary>
+            登录帮助类
+            </summary>
+            <param name="configuration"></param>
+            <param name="contextAccessor"></param>
+            <param name="requestSession"></param>
+            <param name="userInfoDataAccess"></param>
+            <param name="iIPScannerHelper"></param>
+        </member>
+        <member name="M:GreenWhale.JWTAuthorize.Internal.SignInHelper.AccessToken(GreenWhale.JWTAuthorize.Internal.ISessionUser,GreenWhale.JWTAuthorize.Internal.LoginSuccessDelegate)">
+            <summary>
+            获取AccessToken
+            </summary>
+            <param name="userinfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.JWTAuthorize.Internal.SignInHelper.Login(GreenWhale.JWTAuthorize.Internal.ISessionUser,GreenWhale.JWTAuthorize.Internal.LoginSuccessDelegate)">
+            <summary>
+            登录
+            </summary>
+            <param name="userinfo"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.JWTAuthorize.Internal.SignInOption">
+            <summary>
+            登陆设置
+            </summary>
+        </member>
+        <member name="P:GreenWhale.JWTAuthorize.Internal.SignInOption.SecurityKey">
+            <summary>
+            加密密钥
+            </summary>
+        </member>
+    </members>
+</doc>

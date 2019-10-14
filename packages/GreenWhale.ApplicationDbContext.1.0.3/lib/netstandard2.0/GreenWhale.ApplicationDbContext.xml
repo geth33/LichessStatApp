@@ -1,0 +1,5167 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GreenWhale.ApplicationDbContext</name>
+    </assembly>
+    <members>
+        <member name="F:GreenWhale.GasSystem.Models.Model.ActionType.Query">
+            <summary>
+            查询
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Model.ActionType.Update">
+            <summary>
+            更新
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.AddUserModel">
+            <summary>
+            添加用户模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.AddUserModel.OrganizationID">
+            <summary>
+            组织ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.AddUserModel.User_ID">
+            <summary>
+            用户信息ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.AddUserModel.User_Code">
+            <summary>
+            职工工号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.AddUserModel.User_Account">
+            <summary>
+            用户账户
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.AddUserModel.User_Pwd">
+            <summary>
+            用户密码
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.AddUserModel.User_Name">
+            <summary>
+            用户姓名
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.AddUserModel.User_Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.AddUserModel.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.AddUserModel.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.AddUserModel.User_Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode">
+            <summary>
+            应用程序信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.SessionCode">
+            <summary>
+            验证码全局
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.PhoneNumber">
+            <summary>
+            联系电话
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.Fox">
+            <summary>
+            传真
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.MailCode">
+            <summary>
+            邮编
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.CompanyUrL">
+            <summary>
+            公司网址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.CompanyAddress">
+            <summary>
+            公司地址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.ApplicationName">
+            <summary>
+            应用程序名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.IsLogWrite">
+            <summary>
+            是否写日志
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.LogFilePath">
+            <summary>
+            日志文件路径
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.PageSize">
+            <summary>
+            页码大小
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.AreaID">
+            <summary>
+            默认起始区域
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.CallbackUrl">
+            <summary>
+            平台回调地址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.ManufacturerID">
+            <summary>
+            厂商ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.ManufacturerName">
+            <summary>
+            厂商名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.Model">
+            <summary>
+            设备型号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.ProtocolType">
+            <summary>
+            协议类型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.DeviceType">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.Location">
+            <summary>
+            位置
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.DefaultPassword">
+            <summary>
+            全局默认密码
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ApplicationInfoMode.VerifyCode">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.BackupInfo">
+            <summary>
+            备份信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.BackupInfo.BackupType">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.BackupInfo.DataBase">
+            <summary>
+            数据库名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.BackupInfo.FileName">
+            <summary>
+            文件名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.BackupInfo.FileSize">
+            <summary>
+            文件大小
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.BackupInfo.CreateUserName">
+            <summary>
+            添加用户
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.BackupInfo.CreateDateTime">
+            <summary>
+            添加事件
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.BackupInfo.Remark">
+            <summary>
+            说明
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.Base_SysMenuExtend">
+            <summary>
+            菜单
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_SysMenuExtend.Menu_Id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_SysMenuExtend.Menu_Name">
+            <summary>
+            菜单名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_SysMenuExtend.Menu_Img">
+            <summary>
+            菜单图标
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_SysMenuExtend.Menu_Type">
+            <summary>
+            菜单类型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_SysMenuExtend.TARGET">
+            <summary>
+            目标地址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_SysMenuExtend.ParentId">
+            <summary>
+            父节点ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_SysMenuExtend.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_SysMenuExtend.NavigateUrl">
+            <summary>
+            导航地址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_SysMenuExtend.CreateUserName">
+            <summary>
+            添加用户姓名
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_SysMenuExtend.CreateDate">
+            <summary>
+            创建日期    
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_SysMenuExtend.ModifyUserName">
+            <summary>
+            修改用户姓名
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_SysMenuExtend.ModifyDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_SysMenuExtend.CreateUserId">
+             <summary>
+            添加用户ID
+             </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.Base_UserInfoModel">
+            <summary>
+            用户信息模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_UserInfoModel.User_Name">
+            <summary>
+            用户姓名
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_UserInfoModel.User_Account">
+            <summary>
+            账户
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_UserInfoModel.User_Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_UserInfoModel.Title">
+            <summary>
+            头衔
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_UserInfoModel.DeleteMark">
+            <summary>
+            删除标识
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_UserInfoModel.User_Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Base_UserInfoModel.UserInfoUserGroup_ID">
+            <summary>
+            组ID
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.BingInfo">
+            <summary>
+            绑定信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.BingInfo.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.BingInfo.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.BingInfo.AliPayUserID">
+            <summary>
+            支付宝ID
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.ComponentModel`1">
+            <summary>
+            组件模型
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Model.ComponentModel`1.#ctor(System.String,`0[],System.String)">
+            <summary>
+            组件模型
+            </summary>
+            <param name="menuID"></param>
+            <param name="Model"></param>
+            <param name="treeID"></param>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ComponentModel`1.MenuID">
+            <summary>
+            菜单ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ComponentModel`1.Model">
+            <summary>
+            模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ComponentModel`1.TreeID">
+            <summary>
+            树ID
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.CurrentUserManagerModel">
+            <summary>
+            当前用户模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.CurrentUserManagerModel.UserName">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.CurrentUserManagerModel.UserCode">
+            <summary>
+            职工工号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.CurrentUserManagerModel.UserAccount">
+            <summary>
+            登陆账户
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.CurrentUserManagerModel.UserPassword">
+            <summary>
+            登陆密码
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.CurrentUserManagerModel.UserSex">
+            <summary>
+            职工性别
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.CurrentUserManagerModel.Email">
+            <summary>
+            电子邮箱
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.CurrentUserManagerModel.DateTimeCreate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.CurrentUserManagerModel.Title">
+            <summary>
+            职称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.CurrentUserManagerModel.DeleteMark">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.CurrentUserManagerModel.Theme">
+            <summary>
+            系统样式
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.CurrentUserManagerModel.UserRemark">
+            <summary>
+            备注描述
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.GetControlPropertyModel">
+            <summary>
+            获取控件属性模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.GetControlPropertyModel.ControlInfoModel">
+            <summary>
+            属性信息模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.GetControlPropertyModel.Index">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.HomShortcutListModel">
+            <summary>
+            首页快捷键
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ImagesInfoMode.pageinfo">
+            <summary>
+            页码信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ImagesInfoMode.datas">
+            <summary>
+            图片模型
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.ImageModel">
+            <summary>
+            图片模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ImageModel.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ImageModel.Size">
+            <summary>
+            大小
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.IPageInfo">
+            <summary>
+            页码数据接口
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.IPageInfo.pageinfo">
+            <summary>
+            页码数据
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.KeyValueMode">
+            <summary>
+            个人信息(名称-值)
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.KeyValueMode.Key">
+            <summary>
+            键
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.KeyValueMode.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.LoginInfoMode">
+            <summary>
+            身份验证
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.LoginInfoMode.UserName">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.LoginInfoMode.UserPwd">
+            <summary>
+            用户密码
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.LoginInfoMode.Code">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.LoginsInfoMode">
+            <summary>
+            登陆列表模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.LoginsInfoMode.pageinfo">
+            <summary>
+            页码信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.LoginsInfoMode.datas">
+            <summary>
+            登陆数据列表
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RecyclebinInfoModel.pageinfo">
+            <summary>
+            页码信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RecyclebinInfoModel.datas">
+            <summary>
+            登陆数据列表
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.MenusInfo">
+            <summary>
+            菜单信息
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.MenusInfoComapare">
+            <summary>
+            菜单信息比较器
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.NameValueAttribute.PropertyName">
+            <summary>
+            属性名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.Organization">
+            <summary>
+            组织模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Organization.orgid">
+            <summary>
+            组织节点
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Organization.IsUser">
+            <summary>
+            是否为用户
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Organization.OrgName">
+            <summary>
+            组织名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.OrganizationInfo">
+            <summary>
+            组织信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.OrganizationInfo.Organization_ID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.OrganizationInfo.Organization_Name">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.OrganizationInfo.GroupName">
+            <summary>
+            父节点ID
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.PageControlModel">
+            <summary>
+            页码模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.PageControlModel.PageDataURL">
+            <summary>
+            页面数据地址
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.PageInfo">
+            <summary>
+            页码信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.PageInfo.datacount">
+            <summary>
+            数据总数
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.PageInfo.pagesize">
+            <summary>
+            页码大小
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.NameValueAppend">
+            <summary>
+            名称-值(附加信息)
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.NameValueAppend.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.NameValueAppend.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.Recyclebin">
+            <summary>
+            回收站
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Recyclebin.RecKey">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Recyclebin.tablename">
+            <summary>
+            表名
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Recyclebin.RecID">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Recyclebin.RecBaseName">
+            <summary>
+            数据库名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.RightButton">
+            <summary>
+            按钮
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RightButton.ButtonName">
+            <summary>
+            按钮名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RightButton.ButtonID">
+            <summary>
+            按钮ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RightButton.HasRight">
+            <summary>
+            是否有权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RightButton.Icon">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.RightMenu">
+            <summary>
+            权限按钮
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RightMenu.MenuID">
+            <summary>
+            按钮ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RightMenu.ParentID">
+            <summary>
+            父节点ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RightMenu.MenuName">
+            <summary>
+            菜单mingc
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RightMenu.Icon">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RightMenu.HasRight">
+            <summary>
+            是否有权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RightMenu.Buttons">
+            <summary>
+            按钮列表
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.RightUserInfoModel">
+            <summary>
+            权限信息模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RightUserInfoModel.Menu_Id">
+            <summary>
+            ID 
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RightUserInfoModel.TheirTYPE">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.RoleInfo">
+            <summary>
+            角色信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RoleInfo.User_ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RoleInfo.User_Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RoleInfo.Organization_Name">
+            <summary>
+            父级ID
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.RoleInfoModel">
+            <summary>
+            角色信息模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RoleInfoModel.Roles_Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RoleInfoModel.Roles_Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RoleInfoModel.Roles_ParentID">
+            <summary>
+            父节点ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RoleInfoModel.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.RoleListInfo">
+            <summary>
+            角色信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RoleListInfo.RoleID">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RoleListInfo.ParentId">
+            <summary>
+            父节点ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RoleListInfo.Roles_Name">
+            <summary>
+            角色名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RoleListInfo.Roles_Remark">
+            <summary>
+            角色备注
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RoleListInfo.SortCode">
+            <summary>
+            显示顺序
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.RoleListUploadInfo">
+            <summary>
+            上传的角色信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RoleListUploadInfo.RoleListInfo">
+            <summary>
+            角色信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.RoleListUploadInfo.OrganizationInfo">
+            <summary>
+            成员信息
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.Roles">
+            <summary>
+            角色模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.Roles.roleId">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ShortCutMode.NavigateUrl">
+            <summary>
+            导航地址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ShortCutMode.Setup_IName">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ShortCutMode.Target">
+            <summary>
+            不表类型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.ShortCutMode.Setup_Img">
+            <summary>
+            图片
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.SQLParam">
+            <summary>
+            搜索参数
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.SQLParam.SQL">
+            <summary>
+            SQL语句
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.SQLParam.type">
+            <summary>
+            操作类型
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.StaffOrganizeListModel">
+            <summary>
+            组织模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.StaffOrganizeListModel.Organization_ID">
+            <summary>
+            组织ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.StaffOrganizeListModel.Organization_Name">
+            <summary>
+            组织名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.StaffOrganizeListModel.isUser">
+            <summary>
+            是否为用户
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.StaffOrganizeListModel.ParentId">
+            <summary>
+            父节点ID
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.SystemSettingMode">
+            <summary>
+            系统设置模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.SystemSettingMode.KeyName">
+            <summary>
+            键名
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.SystemSettingMode.KeyValue">
+            <summary>
+            键值
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.SystemSettingMode.ParentName">
+            <summary>
+            父节点名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.TreeMenu.MenuName">
+            <summary>
+            菜单名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.TreeMenu.MenuID">
+            <summary>
+            菜单ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.TreeMenu.MenuImage">
+            <summary>
+            菜单图片
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.TreeMenu.URl">
+            <summary>
+            事件
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.TreeMenu.MenuType">
+            <summary>
+            菜单类型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.TreeMenu.TreeMenus">
+            <summary>
+            子菜单列表
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.UpdateRight">
+            <summary>
+            更新角色权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UpdateRight.ButtonID">
+            <summary>
+            按钮ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UpdateRight.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UpdateRight.RoleID">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.UpdateUserGroupRight">
+            <summary>
+            更新用户组用户权限模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UpdateUserGroupRight.UserGroupID">
+            <summary>
+            用户组ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UpdateUserGroupRight.UserID">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UpdateUserGroupRight.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.UpdateUserRoleRight">
+            <summary>
+            更新角色ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UpdateUserRoleRight.RoleID">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UpdateUserRoleRight.UserID">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UpdateUserRoleRight.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.UpdateUserDepartmentRight">
+            <summary>
+            更新用户部门权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UpdateUserDepartmentRight.UserID">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UpdateUserDepartmentRight.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UpdateUserDepartmentRight.DepartmentID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.UserGroup">
+            <summary>
+            用户组信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserGroup.userGroupId">
+            <summary>
+            父级ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserGroup.HasRight">
+            <summary>
+            是否有权
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.UserGroupRight">
+            <summary>
+            用户组权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserGroupRight.UserGroup_ID">
+            <summary>
+            用户组ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserGroupRight.UserGroup_Name">
+            <summary>
+            分组名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.UserInfoAddMode">
+            <summary>
+            用户信息添加
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserInfoAddMode.ControlInfoModels">
+            <summary>
+            控件信息模型
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.UserRight">
+            <summary>
+            用户权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserRight.ParentId">
+            <summary>
+            父节点ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserRight.SortCode">
+            <summary>
+            显示序号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserRight.HasRight">
+            <summary>
+            是否有权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserRight.UserID">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.UserRoleInfo">
+            <summary>
+            角色信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserRoleInfo.RolesID">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserRoleInfo.RolesName">
+            <summary>
+            角色名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.UserRoleRight">
+            <summary>
+            用户角色权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserRoleRight.Roles_Name">
+            <summary>
+            角色名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserRoleRight.Roles_ID">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.UserDepartmentRight">
+            <summary>
+            用户部门权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserDepartmentRight.Department_ID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Model.UserDepartmentRight.Department_Name">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Model.UserSearchType">
+            <summary>
+            搜索类型
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Model.UserSearchType.User_Code">
+            <summary>
+            工号
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Model.UserSearchType.User_Account">
+            <summary>
+            账户
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Model.UserSearchType.User_Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.AliPayHelper">
+            <summary>
+            支付宝帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.AliPayHelper.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            支付宝帮助类
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.AliPayHelper.AlipayOpenAuthTokenPath">
+            <summary>
+            阿里应用授权地址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.AliPayHelper.AlipayPublicAuthTokenPath">
+            <summary>
+            阿里开放授权地址
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.AliPayHelper.AlipayOpenAuthTokenApp(System.String,System.String)">
+            <summary>
+            商户授权成功后，pc或者钱包客户端会跳转至开发者定义的回调页面（即redirect_uri参数对应的url），在回调页面请求中会带上当次授权的授权码app_auth_code和开发者的app_id
+            </summary>
+            <param name="app_id">应用ID</param>
+            <param name="app_auth_code">应用授权的app_auth_code唯一的；app_auth_code使用一次后失效，一天（从生成app_auth_code开始的24小时）未被使用自动过期； app_auth_token永久有效</param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.AliPayHelper.AlipayOpenAuthTokenAppQuery(GreenWhale.Alipay.Response.AlipayOpenAuthTokenAppResponse)">
+            <summary>
+            当商户把服务窗、店铺等接口的权限授权给ISV之后，支付宝会给ISV颁发一个app_auth_token。如若授权成功之后，ISV想知道用户的授权信息，如授权者、授权接口列表等信息，可以调用本接口查询某个app_auth_token对应的授权信息
+            </summary>
+            <param name="alipayOpenAuthTokenAppResponse">通过该令牌来帮助商户发起请求，完成业务</param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.AliPayHelper.AlipaySystemOauthToken(System.String,System.String)">
+            <summary>
+            换取授权访问令牌
+            </summary>
+            <param name="auth_code"></param>
+            <param name="grant_type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.AliPayHelper.AlipayUserInfoShare(System.String)">
+            <summary>
+            配合支付宝会员授权接口，根据授权token，查询授权信息。
+            </summary>
+            <param name="accessToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.BackupHelper">
+            <summary>
+            备份帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.BackupHelper.Infos">
+            <summary>
+            所有备份信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.BaseRecycleBinCompare">
+             <summary>   数据库对象比较</summary>
+            
+             <remarks>   WXF, 2018-12-11. </remarks>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.CommonHelper.GetGuid">
+            <summary>
+            获取GUID
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CommonHelper.GetInt(System.Object)">
+            <summary>
+            获取整数
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CommonHelper.GetFloat(System.Object)">
+            <summary>
+            获取浮点数
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CommonHelper.GetInt(System.Object,System.Int32)">
+            <summary>
+            获取整数
+            </summary>
+            <param name="obj"></param>
+            <param name="exceptionvalue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CommonHelper.GetByte(System.Object)">
+            <summary>
+            获取字节
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CommonHelper.GetDecimal(System.Object)">
+            <summary>
+            获取Decimal
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CommonHelper.GetFormatDateTime(System.Object,System.String)">
+            <summary>
+            格式化时间
+            </summary>
+            <param name="obj"></param>
+            <param name="Format"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CommonHelper.GetBool(System.Object)">
+            <summary>
+            转换为布尔
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CommonHelper.GetString(System.Object)">
+            <summary>
+            获取字符串
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CommonHelper.IsDateTime(System.String)">
+            <summary>
+            是否为日期
+            </summary>
+            <param name="strValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CommonHelper.CreateNo">
+             <summary>
+            创建字符串 
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CommonHelper.RandNumber(System.Int32)">
+            <summary>
+            获取随机字符串
+            </summary>
+            <param name="codeNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CommonHelper.SplitString(System.String,System.String)">
+            <summary>
+            分割字符串
+            </summary>
+            <param name="strContent"></param>
+            <param name="strSplit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CommonHelper.SplitString(System.String,System.String,System.Int32)">
+            <summary>
+            分割字符串
+            </summary>
+            <param name="strContent"></param>
+            <param name="strSplit"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.CustomJwtDataFormat">
+            <summary>
+            自定义日期格式
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CustomJwtDataFormat.#ctor(System.String,Microsoft.IdentityModel.Tokens.TokenValidationParameters)">
+            <summary>
+            自定义日期格式
+            </summary>
+            <param name="algorithm"></param>
+            <param name="validationParameters"></param>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CustomJwtDataFormat.Unprotect(System.String)">
+            <summary>
+            不保护
+            </summary>
+            <param name="protectedText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CustomJwtDataFormat.Unprotect(System.String,System.String)">
+            <summary>
+            不保护
+            </summary>
+            <param name="protectedText"></param>
+            <param name="purpose"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CustomJwtDataFormat.Protect(Microsoft.AspNetCore.Authentication.AuthenticationTicket)">
+            <summary>
+            保护
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.CustomJwtDataFormat.Protect(Microsoft.AspNetCore.Authentication.AuthenticationTicket,System.String)">
+            <summary>
+            保护
+            </summary>
+            <param name="data"></param>
+            <param name="purpose"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.DataInfo`1">
+            <summary>
+            数据信息模板类
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.DataInfo`1.Datas">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.DataInfo`1.Count">
+            <summary>
+            数据总数
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.DataTableHelper">
+            <summary>
+            数据表帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DataTableHelper.DataTableToHashtableByKeyValue(System.Data.DataTable,System.String,System.String)">
+            <summary>
+            将DataTable转换为哈希表
+            </summary>
+            <param name="dt"></param>
+            <param name="keyField"></param>
+            <param name="valFiled"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DataTableHelper.DataTableToXML(System.Data.DataTable)">
+            <summary>
+            DataTable转换为XML流
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DataTableHelper.DataTableToArrayList(System.Data.DataTable)">
+            <summary>
+            DataTable转换为集合
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DataTableHelper.DataTableToHashtable(System.Data.DataTable)">
+            <summary>
+            DataTable转换为集合
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DataTableHelper.GetNewDataTable(System.Data.DataTable,System.String)">
+            <summary>
+            查询本地DataTable
+            </summary>
+            <param name="dt">数据表</param>
+            <param name="condition">查询条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DataTableHelper.IsExistRows(System.Data.DataTable)">
+            <summary>
+            行是否存在
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DataTableHelper.SortedTable(System.Data.DataTable,System.String[])">
+            <summary>
+            表排序
+            </summary>
+            <param name="dt"></param>
+            <param name="sorts"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DataTableHelper.GetPagedTable(System.Data.DataTable,System.Int32,System.Int32)">
+            <summary>
+            获取页Table
+            </summary>
+            <param name="dt"></param>
+            <param name="PageIndex"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.DateTimeHelper">
+            <summary>
+            日期帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.GetToday">
+            <summary>
+            当前时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.GetToday(System.String)">
+            <summary>
+            获取今天
+            </summary>
+            <param name="format"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.GetDate(System.Int32)">
+            <summary>
+            读取日期
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.GetNumberWeekDay(System.DateTime)">
+            <summary>
+            
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.GetChineseWeekDay(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取字符串
+            </summary>
+            <param name="y"></param>
+            <param name="m"></param>
+            <param name="d"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.GetDaysOfYear(System.Int32)">
+            <summary>
+            一年共有多少天
+            </summary>
+            <param name="iYear"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.GetDaysOfYear(System.DateTime)">
+            <summary>
+            一年共有多少天
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.GetDaysOfMonth(System.Int32,System.Int32)">
+            <summary>
+            获取天数
+            </summary>
+            <param name="iYear"></param>
+            <param name="Month"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.GetDaysOfMonth(System.DateTime)">
+            <summary>
+            获取指定月份的天数
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.GetWeekNameOfDay(System.DateTime)">
+            <summary>
+            获取属于那一天
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.GetWeekNumberOfDay(System.DateTime)">
+            <summary>
+            获取该日期属于那一天
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.GetWeekAmount(System.Int32)">
+            <summary>
+            获取某年的周数
+            </summary>
+            <param name="year"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.GetWeekOfYear(System.DateTime)">
+            <summary>
+            获取年度的周数
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.WeekRange(System.Int32,System.Int32,System.DateTime@,System.DateTime@)">
+            <summary>
+            区域
+            </summary>
+            <param name="year"></param>
+            <param name="weekOrder"></param>
+            <param name="firstDate"></param>
+            <param name="lastDate"></param>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.DiffDays(System.DateTime,System.DateTime)">
+            <summary>
+            相减
+            </summary>
+            <param name="dtfrm"></param>
+            <param name="dtto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.IsRuYear(System.Int32)">
+            <summary>
+            是否为闰年
+            </summary>
+            <param name="iYear"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.ToDate(System.String)">
+            <summary>
+            转换为日期
+            </summary>
+            <param name="strInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DateTimeHelper.ToString(System.DateTime,System.String)">
+            <summary>
+            字符串化
+            </summary>
+            <param name="oDateTime"></param>
+            <param name="strFormat"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.DeleteHelper">
+            <summary>
+            删除帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DeleteHelper.#ctor(GreenWhale.GasSystem.Models.Interface.IRequestSession,GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext)">
+            <summary>
+            删除帮助类
+            </summary>
+            <param name="requestSession"></param>
+            <param name="applicationDataContext"></param>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.DeleteHelper.Delete(GreenWhale.GasSystem.Models.Interface.IDeleteUser,System.String,System.String,System.String,System.String)">
+            <summary>
+            删除数据
+            </summary>
+            <param name="user">对象值</param>
+            <param name="keyName">主键名称</param>
+            <param name="keyValue">主键值</param>
+            <param name="menuName">菜单名称</param>
+            <param name="remark">备注信息</param>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.ErrorLog">
+            <summary>
+            错误日志
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.ErrorLog.AddErrorLog(System.String)">
+            <summary>
+            添加错误日志
+            </summary>
+            <param name="errContent"></param>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.HashPasswordHelper">
+            <summary>
+            密码帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.HashPasswordHelper.HashPasswordForStoringInConfigFile(System.String)">
+            <summary>
+            密码加密
+            </summary>
+            <param name="stringValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.IPScannerHelper">
+            <summary>
+            扫描IP帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.IPScannerHelper.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            扫描IP帮助类
+            </summary>
+            <param name="hostingEnvironment"></param>
+            <param name="httpContextAccessor"></param>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.IPScannerHelper.IPLocation">
+            <summary>
+            位置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.IPScannerHelper.IPLocation(System.String,System.String)">
+            <summary>
+            位置
+            </summary>
+            <param name="dataPath"></param>
+            <param name="ip"></param>
+            <returns></returns>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.IPScannerHelper.AddressLocation">
+            <summary>
+            获取IP地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.IPScannerHelper.Country">
+            <summary>
+            城市
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.IPScannerHelper.DataPath">
+            <summary>
+            路径
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.IPScannerHelper.ErrorMessage">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.IPScannerHelper.IP">
+            <summary>
+            IP
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.IPScannerHelper.Local">
+            <summary>
+            本机
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.Md5Helper">
+            <summary>
+            MD5帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.Md5Helper.MD5(System.String,System.Int32)">
+            <summary>
+            求MD5
+            </summary>
+            <param name="str"></param>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.MenuHelper">
+            <summary>
+            菜单帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.MenuHelper.GetMenuTypeString(GreenWhale.GasSystem.Models.MenuType)">
+            <summary>
+            菜单类型
+            </summary>
+            <param name="Menu_Type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.MenuHelper.RoleType(System.Int32)">
+            <summary>
+            获取角色状态
+            </summary>
+            <param name="Menu_Type"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.MenuInfo">
+            <summary>
+            菜单信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.MenuInfo.MenuID">
+            <summary>
+            菜单ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.MenuInfo.Name">
+            <summary>
+            菜单名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.ReaderToIListHelper">
+            <summary>
+            Reader转集合
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.ReaderToIListHelper.DataTableToIDataReader(System.Data.IDataReader)">
+            <summary>
+            DataTable转Reader
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.ReaderToIListHelper.ReaderToModel``1(System.Data.IDataReader)">
+            <summary>
+            转换为T
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="dr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.ReaderToIListHelper.ReaderToList``1(System.Data.IDataReader)">
+            <summary>
+            转换为列表
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="dr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.RedisExtensionHelper">
+            <summary>
+            Redis扩展帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.RedisExtensionHelper.AddRedis(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String[])">
+            <summary>
+            添加Redis
+            </summary>
+            <param name="collection"></param>
+            <param name="connectionString">127.0.0.1:6379,pass=123,defaultDatabase=13,poolsize=50,ssl=false,writeBuffer=10240,prefix=key前辍</param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.RequestSession">
+            <summary>
+            请求会话
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.RequestSession.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            请求会话
+            </summary>
+            <param name="distributedCache"></param>
+            <param name="accessor"></param>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.RequestSession.CookieSetting">
+            <summary>
+            Cookie设置
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.RequestSession.SessionUser">
+            <summary>
+            获取当前会话用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.RequestSession.VerifyCode">
+            <summary>
+            获取验证码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.StructBytesExtension">
+            <summary>
+            字节结构体扩展类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.StructBytesExtension.ToBytes``1(``0)">
+            <summary>
+            将结构体转换为字节数组
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.StructBytesExtension.ToStruct``1(System.Byte[])">
+            <summary>
+            将字节数组转换为结构体
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.SystemDataAccess">
+            <summary>
+            系统数据访问
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetBase_HtmlNames">
+            <summary>
+            获取HTML文档名
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetHtml(System.String)">
+            <summary>
+            查询Html
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.HtmlAdd(GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html)">
+            <summary>
+            添加Html文件
+            </summary>
+            <param name="html"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetBase_Html(System.String)">
+            <summary>
+            根据ID查询Html
+            </summary>
+            <param name="Html_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.HtmlDelete(System.String)">
+            <summary>
+            删除Html
+            </summary>
+            <param name="html_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.HtmlEdit(GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html)">
+            <summary>
+            更新Html
+            </summary>
+            <param name="html"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.#ctor(GreenWhale.GasSystem.Models.Interface.IRequestSession,GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext,Microsoft.AspNetCore.Http.IHttpContextAccessor,GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode,GreenWhale.GasSystem.Models.Interface.IDeleteHelper,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            系统数据访问
+            </summary>
+            <param name="requestSession"></param>
+            <param name="applicationDataContext"></param>
+            <param name="httpContextAccessor"></param>
+            <param name="applicationInfoMode"></param>
+            <param name="deleteHelper"></param>
+            <param name="hostingEnvironment"></param>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.AliPayAuthorizeLogin(GreenWhale.Alipay.Response.AlipayUserInfoShareResponse)">
+            <summary>
+            查询用户是否存在
+            </summary>
+            <param name="response"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.BindUser(System.String,System.String)">
+            <summary>
+            绑定用户
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="alipayUserid">支付宝用户ID</param>
+            <returns>-1表示已绑定，0，绑定失败，1表示绑定成功</returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetUserAlipayInfo(System.String)">
+            <summary>
+            获取支付宝信息
+            </summary>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GroupUserList(System.String,System.Boolean)">
+            <summary>
+            根据用户组查询用户信息
+            </summary>
+            <param name="userGroupid"></param>
+            <param name="isInclude">是否包含</param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.DeUserGroupUpdate(System.String,System.String)">
+            <summary>
+            用户组信息删除
+            </summary>
+            <param name="userGroupid"></param>
+            <param name="userID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.UserGroupUpdate(System.String,System.String)">
+            <summary>
+            添加用户权限信息
+            </summary>
+            <param name="userid"></param>
+            <param name="usergroupid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.UserRoleUpdate(GreenWhale.GasSystem.Models.Model.UpdateUserRoleRight)">
+            <summary>
+            用户分配或移除出角色
+            </summary>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.UpdateUserRight(GreenWhale.GasSystem.Models.Model.UpdateRight)">
+            <summary>
+            更新用户权限
+            </summary>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.UserInfoAdd(GreenWhale.GasSystem.Models.Model.AddUserModel)">
+            <summary>
+            添加更新用户信息
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.UserInfoDelete(System.String)">
+            <summary>
+            用户信息删除
+            </summary>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.Load_StaffOrganizeList">
+            <summary>
+            加载组织信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetOrganizationList">
+            <summary>
+            获取部门列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.Base_OrganizationAdd(GreenWhale.GasSystem.Models.Base_Organization)">
+            <summary>
+            部门添加
+            </summary>
+            <param name="organization"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetBase_OrganizationByID(System.String)">
+            <summary>
+            获取部门通过ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.Base_OrganizationUpdate(GreenWhale.GasSystem.Models.Base_Organization)">
+            <summary>
+            部门更新
+            </summary>
+            <param name="organization"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.Base_UserGroupAdd(GreenWhale.GasSystem.Models.Base_UserGroup)">
+            <summary>
+            用户组添加
+            </summary>
+            <param name="group"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetUserGroupByID(System.String)">
+            <summary>
+            查询用户组信息
+            </summary>
+            <param name="userGroup_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.Base_UserGroupUpdate(GreenWhale.GasSystem.Models.Base_UserGroup)">
+            <summary>
+            用户组编辑
+            </summary>
+            <param name="group"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.InitUserGroupList">
+            <summary>
+            初始化用户组信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.InitUserGroupList(System.String)">
+            <summary>
+            获取指定用户组的权限信息
+            </summary>
+            <param name="UserId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetUserInfoPage(System.String,System.Nullable{GreenWhale.GasSystem.Models.Model.UserSearchType},System.String)">
+            <summary>
+            获取指定用户组信息
+            </summary>
+            <param name="orgid"></param>
+            <param name="type"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.LockUser(System.String,System.Boolean)">
+            <summary>
+            锁定用户
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="islock">是否锁定</param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.Base_SysMenuDelete(System.String)">
+            <summary>
+            系统菜单删除
+            </summary>
+            <param name="MenuID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.Base_O_A_SetupDelete(System.String)">
+            <summary>
+            快捷方式删除
+            </summary>
+            <param name="setupId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetMenuBind">
+            <summary>
+            获取系统菜单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetOrganizeList">
+            <summary>
+            获取组织机构信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.OrganizeListVirtualDelete(System.String)">
+            <summary>
+            组织机构删除
+            </summary>
+            <param name="orgid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.ButtonListUpdate(GreenWhale.GasSystem.Models.Base_Button)">
+            <summary>
+            按钮更新
+            </summary>
+            <param name="button"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetMenuList">
+            <summary>
+            获取菜单列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.MenuListAdd(GreenWhale.GasSystem.Models.Base_SysMenu)">
+            <summary>
+            菜单列表添加
+            </summary>
+            <param name="extend"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.MenuListDeleteVirtual(System.String)">
+            <summary>
+            菜单列表删除
+            </summary>
+            <param name="menuID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.UserGroupListDeleteVirtual(System.String)">
+            <summary>
+            用户组删除
+            </summary>
+            <param name="UserGroup_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.RoleListDeleteVirtual(System.String)">
+            <summary>
+            角色列表删除
+            </summary>
+            <param name="Roles_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.RoleListUpdate(GreenWhale.GasSystem.Models.Base_Roles)">
+            <summary>
+            角色信息更新
+            </summary>
+            <param name="roles"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetOrganizationUsers(System.String)">
+            <summary>
+            获取指定角色所有用户
+            </summary>
+            <param name="Roles_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Helper.SystemDataAccess._RoleLocker">
+            <summary>
+            角色锁定
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.ButtonListAdd(GreenWhale.GasSystem.Models.Base_Button)">
+            <summary>
+            按钮列表添加
+            </summary>
+            <param name="button"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.ButtonListDeleteVirtual(System.String)">
+             <summary> 按钮删除 </summary>
+            
+             <remarks>   WXF, 2018-12-11. </remarks>
+            
+             <param name="butttonid">    The butttonid. </param>
+            
+             <returns>   An int. </returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.MenuListUpdate(GreenWhale.GasSystem.Models.Base_SysMenu)">
+            <summary>
+            菜单列表更新
+            </summary>
+            <param name="extend"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetButtonList">
+            <summary>
+            获取按钮列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetSysMenuByButton(System.String)">
+            <summary>
+            通过Menu获取按钮
+            </summary>
+            <param name="Menu_Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.AllotButton(System.String,System.String)">
+            <summary>
+            分配按钮
+            </summary>
+            <param name="pkVal"></param>
+            <param name="ParentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetButtonHtml(System.String)">
+            <summary>
+            获取按钮
+            </summary>
+            <param name="UserId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetMenuByNavigateUrl(System.String,System.Data.DataTable)">
+            <summary>
+            通过导航地址获取按钮
+            </summary>
+            <param name="NavigateUrl"></param>
+            <param name="dt_Menu"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetHaveRightUserInfo(System.String)">
+            <summary>
+            根据用户信息获取权限
+            </summary>
+            <param name="User_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetMenuHtml(System.String)">
+            <summary>
+            获取菜单
+            </summary>
+            <param name="UserID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetPermission_URL(System.String)">
+            <summary>
+            获取权限地址
+            </summary>
+            <param name="UserId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.InitRoleList">
+            <summary>
+            初始化角色列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.InitRoleParentId">
+            <summary>
+            初始化角色父节点
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.InitUserRole(System.String)">
+            <summary>
+            初始化用户角色
+            </summary>
+            <param name="Roles_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.InitRoleRight(System.String)">
+            <summary>
+            获取角色权限列表
+            </summary>
+            <param name="Roles_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.InitUserInfoRight(System.String)">
+            <summary>
+            初始化用户信息权限
+            </summary>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.InitUserGroupRight(System.String)">
+            <summary>
+            获取用户组权限列表
+            </summary>
+            <param name="userGroup_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.UpdateRoleRight(GreenWhale.GasSystem.Models.Model.UpdateRight)">
+            <summary>
+            更新角色权限
+            </summary>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.UpdateUserGroupRight(GreenWhale.GasSystem.Models.Model.UpdateRight)">
+            <summary>
+            更新用户组权限
+            </summary>
+            <param name="updateRight"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.Add_RoleAllotMember(GreenWhale.GasSystem.Models.Model.Organization[],System.String)">
+            <summary>
+            添加角色
+            </summary>
+            <param name="organization"></param>
+            <param name="Roles_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetRoleByMember(System.String)">
+            <summary>
+            通过用户获取角色
+            </summary>
+            <param name="user_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.AppendProperty_List(System.String)">
+            <summary>
+            获取属性列表
+            </summary>
+            <param name="Function"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.AppendPropertyFunction">
+            <summary>
+            获取所有属性
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetMenuInfos">
+            <summary>
+            获取下单菜单列表信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetPropertyInstanceByKey(System.String,System.String)">
+             <summary>
+            根据键名称和键值获取属性
+             </summary>
+             <param name="Property_Function"></param>
+             <param name="PropertyInstance_Key"></param>
+             <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.AppendPropertyHtml(System.String)">
+            <summary>
+            根据功能获取属性
+            </summary>
+            <param name="Function"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.AppendPropertyHtmlLabel(System.String)">
+            <summary>
+            获取扩展属性
+            </summary>
+            <param name="Function"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.Add_AppendPropertyInstance(System.String,System.String[])">
+            <summary>
+            添加附加属性
+            </summary>
+            <param name="guid"></param>
+            <param name="arrayitem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetHomeShortcut_List(System.String)">
+            <summary>
+            获取首页快捷方式信息
+            </summary>
+            <param name="User_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetDataTableStruct(System.String)">
+            <summary>
+            获取数据表结构
+            </summary>
+            <param name="object_TableName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetSystemObject">
+            <summary>
+            获取系统对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.GetSystemColumns(System.String)">
+            <summary>
+            获取指定表列集合
+            </summary>
+            <param name="object_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.RecycleBinsDelete(System.String)">
+            <summary>
+            数据彻底删除
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.RecycleBinsRestore(System.String)">
+            <summary>
+            回收站恢复
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.InitUserRoleRightList(System.String)">
+            <summary>
+            用户角色权限
+            </summary>
+            <param name="userID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.InitUserDepartmentRightList(System.String)">
+            <summary>
+            用户部门权限列表
+            </summary>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.SystemDataAccess.UserDepartmentUpdate(GreenWhale.GasSystem.Models.Model.UpdateUserDepartmentRight)">
+            <summary>
+            用户部门更新
+            </summary>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.TableInfo">
+            <summary>
+            表结构
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.TableInfo.ColumnName">
+            <summary>
+            列名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.TableInfo.DataType">
+            <summary>
+            数据类型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.TableInfo.Length">
+            <summary>
+            长度
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.TableInfo.IsNull">
+            <summary>
+            是否为空
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.TableInfo.DefaultValue">
+            <summary>
+            默认值
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.TableInfo.Remark">
+            <summary>
+            说明
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.UserHelper">
+            <summary>
+            用户帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserHelper.Update(GreenWhale.GasSystem.Models.Interface.IModifyUser,GreenWhale.GasSystem.Models.Interface.IRequestSession)">
+            <summary>
+            更新用户信息
+            </summary>
+            <param name="user"></param>
+            <param name="session"></param>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserHelper.Create(GreenWhale.GasSystem.Models.Interface.ICreateUser,GreenWhale.GasSystem.Models.Interface.IRequestSession)">
+            <summary>
+            创建
+            </summary>
+            <param name="user"></param>
+            <param name="session"></param>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess">
+            <summary>
+            用户数据信息访问
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.#ctor(GreenWhale.GasSystem.Models.Interface.IRequestSession,Microsoft.AspNetCore.Http.IHttpContextAccessor,GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext)">
+            <summary>
+            用户数据信息访问
+            </summary>
+            <param name="requestSession"></param>
+            <param name="httpContext"></param>
+            <param name="applicationDataContext"></param>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.GetUser_Info(System.String)">
+            <summary>
+            读取用户信息
+            </summary>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.UserLogin(System.String,System.String)">
+            <summary>
+            用户登陆
+            </summary>
+            <param name="name"></param>
+            <param name="pwd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.UpdateBase_UserInfo(System.String,System.String)">
+            <summary>
+            更新用户密码
+            </summary>
+            <param name="userid"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.InitUserRight(System.String)">
+            <summary>
+            初始化用户权限
+            </summary>
+            <param name="User_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.InitUserInfoUserGroup(System.String)">
+            <summary>
+            初始化用户组
+            </summary>
+            <param name="User_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.InitUserRole(System.String)">
+            <summary>
+            初始化用户角色
+            </summary>
+            <param name="User_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.InitStaffOrganize(System.String)">
+            <summary>
+            部门列表
+            </summary>
+            <param name="User_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.SysLoginLogAdd(System.String,System.Int32,System.String)">
+            <summary>
+            添加系统登陆日志
+            </summary>
+            <param name="SYS_USER_ACCOUNT"></param>
+            <param name="SYS_LOGINLOG_STATUS"></param>
+            <param name="OWNER_address"></param>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.GetUserLoginInfo">
+            <summary>
+            获取用户登录信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.InitUserGroupParentId">
+            <summary>
+            获取用户组信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.Load_UserInfoUserGroupList(System.String)">
+            <summary>
+            加载用户组信息
+            </summary>
+            <param name="UserGroup_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.InitUserGroupRight(System.String)">
+            <summary>
+            初始化用户组权限
+            </summary>
+            <param name="UserGroup_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.AddUserGroupMember(System.String[],System.String)">
+            <summary>
+            添加组成员
+            </summary>
+            <param name="User_ID"></param>
+            <param name="UserGroup_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.HomeShortcutListAddOrEdit(GreenWhale.GasSystem.Models.Base_O_A_Setup)">
+            <summary>
+            添加或者更新快捷方式
+            </summary>
+            <param name="setup"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.HomeShortcutListDelete(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="setupId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.GetBaseRecycleBinList">
+            <summary>
+            获取指定用户回收站内容信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.UserInfoDataAccess.GetRecycleBins(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            获取回收站数据
+            </summary>
+            <param name="binName">回收站名称</param>
+            <param name="start">开始时间</param>
+            <param name="end">结束时间</param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.ValueHelper">
+            <summary>
+            值帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.ValueHelper.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            值帮助类
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.ValueHelper.GetBoolValue(System.String)">
+            <summary>
+            获取布尔值
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.ValueHelper.GetIntValue(System.String)">
+            <summary>
+            获取整数值
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Helper.ValueHelper.GetValue(System.String)">
+            <summary>
+            获取值
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Helper.VerifyCodeHelper">
+            <summary>
+            验证码帮助类
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Helper.VerifyCodeHelper.font">
+            <summary>
+            验证码用到的字体
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Helper.VerifyCodeHelper.color">
+            <summary>
+            验证码用到的颜色
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Helper.VerifyCodeHelper.character">
+            <summary>
+            验证码用到的字符
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Helper.VerifyCodeHelper.VerifyCode">
+            <summary>
+            获取验证码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext">
+            应用程序数据库上下文
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_Html">
+            <summary>
+            Html文档信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_SysLoginlog">
+            <summary>
+            登录日志
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_UserInfo">
+            <summary>
+            用户信息表
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_O_A_Setup">
+            <summary>
+            快捷方式设置
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_SysMenu">
+            <summary>
+            系统菜单
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_RoleRight">
+            <summary>
+            角色权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_UserRole">
+            <summary>
+            用户权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_UserGroupRight">
+            <summary>
+            用户组权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_UserInfoUserGroup">
+            <summary>
+            用户信息权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_UserRight">
+            <summary>
+            用户权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_StaffOrganize">
+            <summary>
+            员工组织
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_UserGroup">
+            <summary>
+            用户组
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_Organization">
+            <summary>
+            组织
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_Recyclebin">
+            <summary>
+            回收站
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_Button">
+            <summary>
+            按钮列表
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_Roles">
+            <summary>
+            角色表
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_AppendProperty">
+            <summary>
+            附加属性
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Base_AppendPropertyInstance">
+            <summary>
+            附加属性
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Alipay_Bind">
+            <summary>
+            支付宝绑定
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.ApplicationDataContext.Alipay_UserInfo">
+            <summary>
+            支付宝账户信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.MicroDataTable.TotalCount">
+            <summary>
+            整个查询语句结果的总条数，而非本DataTable的条数
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.EntityFrameworks.MicroDataTableHelper">
+            <summary>
+            数据表帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.EntityFrameworks.MicroDataTableHelper.ExecuteDataTable(Microsoft.EntityFrameworkCore.DbContext,System.String,System.Object[])">
+            <summary>
+            执行Ddta =Table
+            </summary>
+            <param name="context"></param>
+            <param name="sql"></param>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.EntityFrameworks.MicroDataTableHelper.ConvertDataReaderToDataTable(System.Data.Common.DbDataReader)">
+            <summary>
+            转换Datatable
+            </summary>
+            <param name="dataReader"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_Bind">
+            <summary>
+            支付宝账户绑定
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_Bind.Alipay_Bind_ID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_Bind.Base_UserInfo_UserID">
+            <summary>
+            用户信息用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_Bind.Alipay_UserInfo_UserID">
+            <summary>
+            支付宝账户ID
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo">
+            <summary>
+            支付宝账户信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.UserId">
+            <summary>
+            支付宝用户的userId
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.Address">
+            <summary>
+            详细地址。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.Area">
+            <summary>
+            区县名称。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.Avatar">
+            <summary>
+            用户头像地址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.BusinessScope">
+            <summary>
+            经营/业务范围（用户类型是公司类型时才有此字段）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.CertNo">
+            <summary>
+            【注意】只有is_certified为T的时候才有意义，否则不保证准确性.  证件号码，结合证件类型使用.
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.CertType">
+            <summary>
+            【注意】只有is_certified为T的时候才有意义，否则不保证准确性.  0:身份证  1:护照  2:军官证  3:士兵证  4:回乡证  5:临时身份证  6:户口簿  7:警官证  8:台胞证  9:营业执照  10:其它证件  11:港澳居民来往内地通行证  12:台湾居民来往大陆通行证
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.City">
+            <summary>
+            市名称。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.CollegeName">
+            <summary>
+            学信网返回的学校名称，有可能为空。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.CountryCode">
+            <summary>
+            国家码
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.Degree">
+            <summary>
+            学信网返回的学历/学位信息，数据质量一般，请谨慎使用，取值包括：博士研究生、硕士研究生、高升本、专科、博士、硕士、本科、夜大电大函大普通班、专科(高职)、第二学士学位。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.DeliverAddresses">
+            <summary>
+            收货地址列表
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.Email">
+            <summary>
+            用户支付宝邮箱登录名
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.EnrollmentTime">
+            <summary>
+            入学时间，yyyy-mm-dd格式
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.FirmAgentPersonCertExpiryDate">
+            <summary>
+            企业代理人证件有效期（用户类型是公司类型时才有此字段）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.FirmAgentPersonCertNo">
+            <summary>
+            企业代理人证件号码（用户类型是公司类型时才有此字段）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.FirmAgentPersonCertType">
+            <summary>
+            企业代理人证件类型, 返回值参考cert_type字段（用户类型是公司类型时才有此字段）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.FirmAgentPersonName">
+            <summary>
+            企业代理人姓名（用户类型是公司类型时才有此字段）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.FirmLegalPersonCertExpiryDate">
+            <summary>
+            企业法人证件有效期（用户类型是公司类型时才有此字段）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.FirmLegalPersonCertNo">
+            <summary>
+            法人证件号码（用户类型是公司类型时才有此字段）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.FirmLegalPersonCertType">
+            <summary>
+            企业法人证件类型, 返回值参考cert_type字段（用户类型是公司类型时才有此字段）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.FirmLegalPersonName">
+            <summary>
+            企业法人名称（用户类型是公司类型时才有此字段）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.FirmType">
+            <summary>
+            公司类型，包括（用户类型是公司类型时才有此字段）：  CO(公司)  INST(事业单位),  COMM(社会团体),  NGO(民办非企业组织),  STATEORGAN(党政国家机关)
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.Gender">
+            <summary>
+            【注意】只有is_certified为T的时候才有意义，否则不保证准确性.  性别（F：女性；M：男性）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.GraduationTime">
+            <summary>
+            预期毕业时间，不保证准确性，yyyy-mm-dd格式。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.IsBalanceFrozen">
+            <summary>
+            余额账户是否被冻结。  T--被冻结；F--未冻结
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.IsCertified">
+            <summary>
+            是否通过实名认证。T是通过 F是没有实名认证。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.IsStudentCertified">
+            <summary>
+            是否是学生
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.LicenseExpiryDate">
+            <summary>
+            营业执照有效期，yyyyMMdd或长期，（用户类型是公司类型时才有此字段）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.LicenseNo">
+            <summary>
+            企业执照号码（用户类型是公司类型时才有此字段）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.MemberGrade">
+            <summary>
+            支付宝会员等级
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.Mobile">
+            <summary>
+            手机号码。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.NickName">
+            <summary>
+            用户昵称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.OrganizationCode">
+            <summary>
+            组织机构代码（用户类型是公司类型时才有此字段）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.PersonBirthday">
+            <summary>
+            个人用户生日。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.PersonCertExpiryDate">
+            <summary>
+            证件有效期（用户类型是个人的时候才有此字段）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.PersonPictures">
+            <summary>
+            个人证件图片（用户类型是个人的时候才有此字段）。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.Phone">
+            <summary>
+            电话号码。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.Profession">
+            <summary>
+            职业
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.Province">
+            <summary>
+            省份名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.TaobaoId">
+            <summary>
+            淘宝id
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.UserName">
+            <summary>
+            【注意】只有is_certified为T的时候才有意义，否则不保证准确性.  若用户是个人用户，则是用户的真实姓名；若是企业用户，则是企业名称。
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.UserStatus">
+            <summary>
+            用户状态（Q/T/B/W）。  Q代表快速注册用户  T代表已认证用户  B代表被冻结账户  W代表已注册，未激活的账户
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.UserType">
+            <summary>
+            用户类型（1/2）  1代表公司账户2代表个人账户
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.EntityFrameworks.Models.Alipay_UserInfo.Zip">
+            <summary>
+            邮政编码。
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Enums.DeleteMarkEnum">
+            <summary>
+            删除标识
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Enums.DeleteMarkEnum.已删除">
+            <summary>
+            已删除
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Enums.DeleteMarkEnum.正常">
+            <summary>
+            正常
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Enums.DeleteMarkEnum.禁用">
+            <summary>
+            禁用
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Enums.LoginResult">
+            <summary>
+            登录结果枚举
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Enums.LoginResult.ErrorCode">
+            <summary>
+            验证码错误
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Enums.LoginResult.BadUser">
+            <summary>
+            账户被锁,联系管理员
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Enums.LoginResult.OnLoging">
+            <summary>
+            登录中
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Enums.LoginResult.BadPwd">
+            <summary>
+            账户或密码有错误
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Enums.LoginResult.BadDataBase">
+            <summary>
+            服务器接入数据库失败，请稍后重试
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Enums.LoginResult.UserHasLogin">
+            <summary>
+            用户已经登陆
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Enums.SexEnum">
+            <summary>
+            性别枚举
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Enums.SexEnum.男性">
+            <summary>
+            男性
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.Enums.SexEnum.女性">
+            <summary>
+            女性
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode">
+            <summary>
+            应用程序信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.SessionCode">
+            <summary>
+            验证码全局名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.CompanyAddress">
+            <summary>
+            公司地址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.CompanyUrL">
+            <summary>
+            公司网址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.Fox">
+            <summary>
+            传真
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.MailCode">
+            <summary>
+            邮编
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.PhoneNumber">
+            <summary>
+            联系电话
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.ApplicationName">
+            <summary>
+            应用程序名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.IsLogWrite">
+            <summary>
+            是否写日志
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.LogFilePath">
+            <summary>
+            日志文件路径
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.PageSize">
+            <summary>
+            页码大小
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.AreaID">
+            <summary>
+            默认起始区域
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.CallbackUrl">
+            <summary>
+            平台回调地址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.ManufacturerID">
+            <summary>
+            厂商ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.ManufacturerName">
+            <summary>
+            厂商名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.Model">
+            <summary>
+            设备型号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.ProtocolType">
+            <summary>
+            协议类型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.DeviceType">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.Location">
+            <summary>
+            位置
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.DefaultPassword">
+            <summary>
+            全局默认密码
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IApplicationInfoMode.VerifyCode">
+            <summary>
+            验证码字符集合
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Interface.ICreateUser">
+            <summary>
+            创建用户
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.ICreateUser.CreateUserName">
+            <summary>
+            创建用户
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.ICreateUser.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.ICreateUser.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Interface.IDeleteHelper">
+            <summary>
+            删除帮助类
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IDeleteHelper.Delete(GreenWhale.GasSystem.Models.Interface.IDeleteUser,System.String,System.String,System.String,System.String)">
+            <summary>
+            删除数据
+            </summary>
+            <param name="user"></param>
+            <param name="keyName"></param>
+            <param name="keyValue"></param>
+            <param name="menuName"></param>
+            <param name="remark"></param>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Interface.IDeleteUser">
+            <summary>
+            删除用户接口
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IDeleteUser.DeleteMark">
+            <summary>
+            删除标记
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Interface.IExpire">
+            <summary>
+            超时时间
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IExpire.ExpireTime">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Interface.IIPScannerHelper">
+            <summary>
+            IP地址帮助类
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IIPScannerHelper.AddressLocation">
+            <summary>
+            获取真实地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Interface.IModifyUser">
+            <summary>
+            修改用户接口
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IModifyUser.ModifyUserId">
+            <summary>
+            修改用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IModifyUser.ModifyUserName">
+            <summary>
+            修改用户名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IModifyUser.ModifyDate">
+            <summary>
+            修改用户ID
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Interface.IRequestSession">
+            <summary>
+            请求会话接口
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IRequestSession.SessionUser">
+            <summary>
+            会话用户
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IRequestSession.CookieSetting">
+            <summary>
+            Cookie设置信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IRequestSession.VerifyCode">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess">
+            <summary>
+            系统数据访问
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetBase_HtmlNames">
+            <summary>
+            获取HTML文档名称列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetHtml(System.String)">
+            <summary>
+            获取Html文档详情信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.HtmlAdd(GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html)">
+            <summary>
+            添加Html文档
+            </summary>
+            <param name="html"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetBase_Html(System.String)">
+            <summary>
+            根据id查询对应的Html
+            </summary>
+            <param name="Html_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.HtmlDelete(System.String)">
+            <summary>
+            删除Html
+            </summary>
+            <param name="Html_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.HtmlEdit(GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html)">
+            <summary>
+            更新Html
+            </summary>
+            <param name="html"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetUserAlipayInfo(System.String)">
+            <summary>
+            获取支付宝信息
+            </summary>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.BindUser(System.String,System.String)">
+            <summary>
+            支付宝绑定用户
+            </summary>
+            <param name="userid"></param>
+            <param name="alipayUserid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.AliPayAuthorizeLogin(GreenWhale.Alipay.Response.AlipayUserInfoShareResponse)">
+            <summary>
+            支付宝获取用户信息
+            </summary>
+            <param name="response"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.RecycleBinsDelete(System.String)">
+            <summary>
+            数据库删除
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.RecycleBinsRestore(System.String)">
+            <summary>
+            数据库恢复
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.UserRoleUpdate(GreenWhale.GasSystem.Models.Model.UpdateUserRoleRight)">
+            <summary>
+            用户角色信息分组
+            </summary>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.DeUserGroupUpdate(System.String,System.String)">
+            <summary>
+            用户组信息删除
+            </summary>
+            <param name="userGroupid"></param>
+            <param name="userID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.UserGroupUpdate(System.String,System.String)">
+            <summary>
+            用户组权限信息更新
+            </summary>
+            <param name="userid"></param>
+            <param name="usergroupid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GroupUserList(System.String,System.Boolean)">
+            <summary>
+            根据用户组ID查询用户信息
+            </summary>
+            <param name="userGroupid"></param>
+            <param name="isInclude"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.InitUserGroupList(System.String)">
+            <summary>
+            获取制定用户组权限信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.UpdateUserRight(GreenWhale.GasSystem.Models.Model.UpdateRight)">
+            <summary>
+            更新用户权限
+            </summary>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.UserInfoDelete(System.String)">
+            <summary>
+            用户信息删除
+            </summary>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.InitUserDepartmentRightList(System.String)">
+            <summary>
+            用户部门权限
+            </summary>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.UserInfoAdd(GreenWhale.GasSystem.Models.Model.AddUserModel)">
+            <summary>
+            用户信息添加或更新
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetUserGroupByID(System.String)">
+            <summary>
+            查询用户组信息
+            </summary>
+            <param name="userGroup_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.UserGroupListDeleteVirtual(System.String)">
+            <summary>
+            用户组删除
+            </summary>
+            <param name="UserGroup_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.InitUserGroupRight(System.String)">
+            <summary>
+            获取用户组权限列表
+            </summary>
+            <param name="userGroup_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.Base_UserGroupAdd(GreenWhale.GasSystem.Models.Base_UserGroup)">
+            <summary>
+            用户组信息添加
+            </summary>
+            <param name="group"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetBase_OrganizationByID(System.String)">
+            <summary>
+            通过ID获取部门
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.Base_O_A_SetupDelete(System.String)">
+            <summary>
+            首页快捷方式删除
+            </summary>
+            <param name="setupId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.Base_SysMenuDelete(System.String)">
+            <summary>
+            菜单删除
+            </summary>
+            <param name="MenuID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.Base_OrganizationAdd(GreenWhale.GasSystem.Models.Base_Organization)">
+            <summary>
+            部门添加
+            </summary>
+            <param name="organization"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.Base_OrganizationUpdate(GreenWhale.GasSystem.Models.Base_Organization)">
+            <summary>
+            部门更新
+            </summary>
+            <param name="organization"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetOrganizationList">
+            <summary>
+            获取部门列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetOrganizationUsers(System.String)">
+            <summary>
+            根据角色获取所有用户
+            </summary>
+            <param name="Roles_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.OrganizeListVirtualDelete(System.String)">
+            <summary>
+            组织机构删除
+            </summary>
+            <param name="orgid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.LockUser(System.String,System.Boolean)">
+            <summary>
+            锁定用户
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="islock">是否锁定</param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.UpdateRoleRight(GreenWhale.GasSystem.Models.Model.UpdateRight)">
+            <summary>
+            更新角色权限
+            </summary>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetMenuInfos">
+            <summary>
+            获取下拉下单列表信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.MenuListDeleteVirtual(System.String)">
+            <summary>
+            菜单列表删除
+            </summary>
+            <param name="menuID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.RoleListDeleteVirtual(System.String)">
+            <summary>
+            角色列表删除
+            </summary>
+            <param name="Roles_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.RoleListUpdate(GreenWhale.GasSystem.Models.Base_Roles)">
+            <summary>
+            角色信息更新
+            </summary>
+            <param name="roles"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.Load_StaffOrganizeList">
+            <summary>
+            加载组织列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.UpdateUserGroupRight(GreenWhale.GasSystem.Models.Model.UpdateRight)">
+            <summary>
+            更新用户组权限
+            </summary>
+            <param name="roleRight"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.ButtonListAdd(GreenWhale.GasSystem.Models.Base_Button)">
+             <summary>   Button list add </summary>
+            
+             <param name="button">   The button. </param>
+            
+             <returns>   An int. </returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.ButtonListDeleteVirtual(System.String)">
+             <summary>按钮列表删除</summary>
+            
+             <param name="butttonid">    The butttonid. </param>
+            
+             <returns>   An int. </returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.MenuListAdd(GreenWhale.GasSystem.Models.Base_SysMenu)">
+            <summary>
+            添加菜单列表
+            </summary>
+            <param name="extend"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.MenuListUpdate(GreenWhale.GasSystem.Models.Base_SysMenu)">
+            <summary>
+            菜单更新
+            </summary>
+            <param name="extend"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.ButtonListUpdate(GreenWhale.GasSystem.Models.Base_Button)">
+            <summary>
+            按钮更新
+            </summary>
+            <param name="button"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.Base_UserGroupUpdate(GreenWhale.GasSystem.Models.Base_UserGroup)">
+            <summary>
+            用户组更新
+            </summary>
+            <param name="group"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetOrganizeList">
+            <summary>
+            获取组织列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetUserInfoPage(System.String,System.Nullable{GreenWhale.GasSystem.Models.Model.UserSearchType},System.String)">
+            <summary>
+            根据组织搜索用户信息
+            </summary>
+            <param name="orgid">组织ID</param>
+            <param name="type">类型</param>
+            <param name="value">值</param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.Add_AppendPropertyInstance(System.String,System.String[])">
+            <summary>
+            添加附加属性值
+            </summary>
+            <param name="guid"></param>
+            <param name="arrayitem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.Add_RoleAllotMember(GreenWhale.GasSystem.Models.Model.Organization[],System.String)">
+            <summary>
+            添加分配成员
+            </summary>
+            <param name="organization">组织列表</param>
+            <param name="Roles_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.InitUserGroupList">
+            <summary>
+            初始化用户组
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.AllotButton(System.String,System.String)">
+            <summary>
+            分配按钮
+            </summary>
+            <param name="pkVal"></param>
+            <param name="ParentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.AppendPropertyFunction">
+            <summary>
+            附加属性功能
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.UserDepartmentUpdate(GreenWhale.GasSystem.Models.Model.UpdateUserDepartmentRight)">
+            <summary>
+            用户部门更新
+            </summary>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.AppendPropertyHtml(System.String)">
+            <summary>
+            附加属性
+            </summary>
+            <param name="Function"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.AppendPropertyHtmlLabel(System.String)">
+            <summary>
+            附加属性
+            </summary>
+            <param name="Function"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.AppendProperty_List(System.String)">
+            <summary>
+            附加属性列表
+            </summary>
+            <param name="Function"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetButtonHtml(System.String)">
+            <summary>
+            获取按钮列表
+            </summary>
+            <param name="UserId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetButtonList">
+            <summary>
+            获取按钮列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetHaveRightUserInfo(System.String)">
+            <summary>
+            获取用户权限
+            </summary>
+            <param name="User_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetHomeShortcut_List(System.String)">
+            <summary>
+            获取首页快捷方式
+            </summary>
+            <param name="User_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetMenuBind">
+            <summary>
+            获取菜单绑定
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.InitUserInfoRight(System.String)">
+            <summary>
+            用户权限
+            </summary>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetMenuByNavigateUrl(System.String,System.Data.DataTable)">
+            <summary>
+            根据导航地址获取菜单
+            </summary>
+            <param name="NavigateUrl"></param>
+            <param name="dt_Menu"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetMenuHtml(System.String)">
+            <summary>
+            获取菜单HTML
+            </summary>
+            <param name="UserID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetMenuList">
+            <summary>
+            获取菜单列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetPermission_URL(System.String)">
+            <summary>
+            获取权限URL
+            </summary>
+            <param name="UserId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetPropertyInstanceByKey(System.String,System.String)">
+            <summary>
+            通过KEY获取属性
+            </summary>
+            <param name="Property_Function"></param>
+            <param name="PropertyInstance_Key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetDataTableStruct(System.String)">
+            <summary>
+            获取回收站对象
+            </summary>
+            <param name="object_TableName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetRoleByMember(System.String)">
+            <summary>
+            根据角色获取成员
+            </summary>
+            <param name="user_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetSystemColumns(System.String)">
+            <summary>
+            获取对应表的列
+            </summary>
+            <param name="object_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetSysMenuByButton(System.String)">
+            <summary>
+            根据菜单获取对应按钮
+            </summary>
+            <param name="Menu_Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.GetSystemObject">
+            <summary>
+            获取系统对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.InitRoleList">
+            <summary>
+            初始化角色列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.InitRoleParentId">
+            <summary>
+            获取用户角色信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.InitRoleRight(System.String)">
+            <summary>
+            获取角色权限
+            </summary>
+            <param name="Roles_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.InitUserRole(System.String)">
+            <summary>
+            初始化用户信息
+            </summary>
+            <param name="Roles_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.ISystemDataAccess.InitUserRoleRightList(System.String)">
+            <summary>
+            用户角色权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess">
+            <summary>
+            用户数据访问
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.GetUser_Info(System.String)">
+            <summary>
+            读取用户信息
+            </summary>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.HomeShortcutListAddOrEdit(GreenWhale.GasSystem.Models.Base_O_A_Setup)">
+            <summary>
+            首页快捷方式添加或更新
+            </summary>
+            <param name="setup"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.AddUserGroupMember(System.String[],System.String)">
+            <summary>
+            添加用户组成员
+            </summary>
+            <param name="User_ID"></param>
+            <param name="UserGroup_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.GetUserLoginInfo">
+            <summary>
+            获取登陆信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.InitStaffOrganize(System.String)">
+            <summary>
+            获取员工部门
+            </summary>
+            <param name="User_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.InitUserGroupParentId">
+            <summary>
+            用户组父节点列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.InitUserGroupRight(System.String)">
+            <summary>
+            用户权限
+            </summary>
+            <param name="UserGroup_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.InitUserInfoUserGroup(System.String)">
+            <summary>
+            用户组
+            </summary>
+            <param name="User_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.InitUserRight(System.String)">
+            <summary>
+            用户权限
+            </summary>
+            <param name="User_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.InitUserRole(System.String)">
+            <summary>
+            用户角色
+            </summary>
+            <param name="User_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.Load_UserInfoUserGroupList(System.String)">
+            <summary>
+            加载用户列表
+            </summary>
+            <param name="UserGroup_ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.SysLoginLogAdd(System.String,System.Int32,System.String)">
+            <summary>
+            系统登陆日志
+            </summary>
+            <param name="SYS_USER_ACCOUNT"></param>
+            <param name="SYS_LOGINLOG_STATUS"></param>
+            <param name="OWNER_address"></param>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.UserLogin(System.String,System.String)">
+            <summary>
+            用户登录
+            </summary>
+            <param name="name"></param>
+            <param name="pwd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.GetBaseRecycleBinList">
+            <summary>
+            获取回收站列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.GetRecycleBins(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            获取回收站日志
+            </summary>
+            <param name="binName"></param>
+            <param name="start"></param>
+            <param name="end"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Models.Interface.IUserInfoDataAccess.UpdateBase_UserInfo(System.String,System.String)">
+            <summary>
+            修改用户密码
+            </summary>
+            <param name="userid"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Interface.IVerifyCodeHelper">
+            <summary>
+            验证码帮助类
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Interface.IVerifyCodeHelper.VerifyCode">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_AppendProperty">
+            <summary>
+            附加属性
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.Property_ID">
+            <summary>
+            属性ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.Property_Function">
+            <summary>
+            属性功能组名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.Property_FunctionUrl">
+            <summary>
+            功能地址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.Property_Control_ID">
+            <summary>
+            控件ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.Property_Name">
+            <summary>
+            属性名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.Property_Control_Type">
+            <summary>
+            控件类型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.Property_Control_DataSource">
+            <summary>
+            数据源
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.Property_Control_Length">
+            <summary>
+            控件长度
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.Property_Control_Maxlength">
+            <summary>
+            控件最大长度
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.Property_Control_Style">
+             <summary>
+            控件类型（txt,select）
+             </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.Property_Control_Validator">
+            <summary>
+            控件验证
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.Property_Colspan">
+            <summary>
+            属性列跨距
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.Property_Event">
+            <summary>
+            属性事件
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.SortCode">
+            <summary>
+            排序ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.DeleteMark">
+            <summary>
+            删除标记
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.CreateUserName">
+            <summary>
+            创建用户名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.ModifyDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.ModifyUserId">
+            <summary>
+            修改用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendProperty.ModifyUserName">
+            <summary>
+            修改用户名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_AppendPropertyInstance">
+            <summary>
+            附加属性
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendPropertyInstance.PropertyInstance_ID">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendPropertyInstance.Property_Control_ID">
+            <summary>
+            控件ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendPropertyInstance.PropertyInstance_Value">
+            <summary>
+            属性值
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_AppendPropertyInstance.PropertyInstance_Key">
+            <summary>
+            属性名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_Button">
+            <summary>
+            按钮模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.Button_ID">
+            <summary>
+            按键ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.Button_Name">
+            <summary>
+            按键名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.Button_Title">
+            <summary>
+            按键标记
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.Button_Img">
+            <summary>
+            图片名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.Button_Code">
+            <summary>
+            执行事件
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.SortCode">
+            <summary>
+            显示序号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.Button_Type">
+            <summary>
+            案件类型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.Button_Remak">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.DeleteMark">
+            <summary>
+            删除标记
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.CreateUserName">
+            <summary>
+            创建用户名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.ModifyDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.ModifyUserId">
+            <summary>
+            修改用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Button.ModifyUserName">
+            <summary>
+            修改用户名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_Organization">
+            <summary>
+            部门信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.Organization_ID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.Organization_Code">
+            <summary>
+            部门编码
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.Organization_Name">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.Organization_InnerPhone">
+            <summary>
+            内线电话
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.Organization_OuterPhone">
+            <summary>
+            外线电话
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.Organization_Manager">
+            <summary>
+            负责人
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.Organization_AssistantManager">
+            <summary>
+            辅助负责人
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.Organization_Fax">
+            <summary>
+            传真
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.Organization_Zipcode">
+            <summary>
+            邮编
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.Organization_Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.ParentId">
+            <summary>
+            父节点ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.Organization_Remark">
+            <summary>
+            说明
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.SortCode">
+            <summary>
+            显示序号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.DeleteMark">
+            <summary>
+            删除标记
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.CreateDate">
+            <summary>
+            添加日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.CreateUserName">
+            <summary>
+            创建用户名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.ModifyDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.ModifyUserId">
+            <summary>
+            修改用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Organization.ModifyUserName">
+            <summary>
+            修改用户名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_O_A_Setup">
+            <summary>
+            快捷方式设置
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_O_A_Setup.Setup_ID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_O_A_Setup.User_ID">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_O_A_Setup.Setup_IName">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_O_A_Setup.NavigateUrl">
+            <summary>
+            导航地址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_O_A_Setup.Target">
+            <summary>
+            目标类型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_O_A_Setup.Setup_Img">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_O_A_Setup.Setup_Remak">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_O_A_Setup.SortCode">
+            <summary>
+            显示顺序
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_RecycleBin">
+            <summary>
+            回收站
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RecycleBin.RecycleBin_ID">
+            <summary>
+            回收站ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RecycleBin.RecycleBin_Name">
+            <summary>
+            回收站名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RecycleBin.RecycleBin_Database">
+            <summary>
+            数据库名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RecycleBin.RecycleBin_Table">
+            <summary>
+            表名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RecycleBin.RecycleBin_FieldKey">
+            <summary>
+            主键名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RecycleBin.RecycleBin_EventField">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RecycleBin.RecycleBin_Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RecycleBin.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RecycleBin.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RecycleBin.CreateUserName">
+            <summary>
+            创建用户名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_RoleRight">
+            <summary>
+            角色权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RoleRight.RoleRight_ID">
+            <summary>
+            角色权限ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RoleRight.Roles_ID">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RoleRight.Menu_Id">
+            <summary>
+            菜单ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RoleRight.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RoleRight.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_RoleRight.CreateUserName">
+            <summary>
+            创建用户名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_Roles">
+            <summary>
+            角色模型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.Roles_ID">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.ParentId">
+            <summary>
+            父节点ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.Roles_Name">
+            <summary>
+            角色名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.Role_Restriction">
+            <summary>
+            角色信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.Roles_Remark">
+            <summary>
+            角色备注
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.AllowEdit">
+            <summary>
+            允许编辑
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.AllowDelete">
+            <summary>
+            永续删除
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.SortCode">
+            <summary>
+            排序ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.DeleteMark">
+            <summary>
+            删除标识
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.CreateUserId">
+            <summary>
+            添加用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.CreateUserName">
+            <summary>
+            添加用户名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.ModifyDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.ModifyUserId">
+            <summary>
+            修改用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_Roles.ModifyUserName">
+            <summary>
+            修改用户名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_StaffOrganize">
+            <summary>
+            员工部门
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_StaffOrganize.StaffOrganize_Id">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_StaffOrganize.Organization_ID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_StaffOrganize.User_ID">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_StaffOrganize.CreateDate">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_StaffOrganize.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_StaffOrganize.CreateUserName">
+            <summary>
+            创建用户名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_SysLoginlog">
+            <summary>
+            系统日志
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysLoginlog.SYS_LOGINLOG_ID">
+            <summary>
+            系统日志ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysLoginlog.SYS_LOGINLOG_IP">
+            <summary>
+            IP地址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysLoginlog.SYS_LOGINLOG_TIME">
+            <summary>
+            时间
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysLoginlog.User_Account">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysLoginlog.SYS_LOGINLOG_STATUS">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysLoginlog.OWNER_address">
+            <summary>
+            坐在位置
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.Menu_Id">
+            <summary>
+            菜单ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.ParentId">
+            <summary>
+            父节点ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.Menu_Name">
+            <summary>
+            菜单名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.Menu_Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.Menu_Img">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.Menu_Type">
+            <summary>
+            菜单类型
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.NavigateUrl">
+            <summary>
+            导航地址
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.Target">
+            <summary>
+            目标类型(IFrame,OnClick，OPen,Herf)
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.AllowEdit">
+            <summary>
+            永续编辑
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.AllowDelete">
+            <summary>
+            允许删除
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.SortCode">
+            <summary>
+            /序号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.DeleteMark">
+            <summary>
+            删除标致
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.CreateUserName">
+            <summary>
+            创建用户名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.ModifyDate">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.ModifyUserId">
+            <summary>
+            修改用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_SysMenu.ModifyUserName">
+            <summary>
+            修改用户名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_UserGroup">
+            <summary>
+            用户组信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.UserGroup_ID">
+            <summary>
+            用户组ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.ParentId">
+            <summary>
+            父节点ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.UserGroup_Code">
+            <summary>
+            用户组编号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.UserGroup_Name">
+            <summary>
+            用户组名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.UserGroup_Remark">
+            <summary>
+            用户信息备注
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.AllowEdit">
+            <summary>
+            允许编辑
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.AllowDelete">
+            <summary>
+            允许删除
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.SortCode">
+            <summary>
+            显示序号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.DeleteMark">
+            <summary>
+            删除标志
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.CreateDate">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.CreateUserName">
+            <summary>
+            创建用户名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.ModifyDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.ModifyUserId">
+            <summary>
+            修改用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroup.ModifyUserName">
+            <summary>
+            修改用户名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_UserGroupRight">
+            <summary>
+            用户组权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroupRight.UserGroupRight_ID">
+            <summary>
+            用户组权限ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroupRight.UserGroup_ID">
+            <summary>
+            用户组ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroupRight.Menu_Id">
+            <summary>
+            菜单ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroupRight.CreateDate">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroupRight.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserGroupRight.CreateUserName">
+            <summary>
+            创建用户名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_UserInfo">
+            <summary>
+            登录用户表
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.User_ID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.User_Code">
+            <summary>
+            职工工号
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.User_Account">
+            <summary>
+            用户账户
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.User_Pwd">
+            <summary>
+            用户密码
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.User_Name">
+            <summary>
+            用户姓名
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.User_Sex">
+            <summary>
+            用户性别
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.Theme">
+            <summary>
+            主题
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.Question">
+            <summary>
+            问题
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.AnswerQuestion">
+            <summary>
+            回答的问题
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.DeleteMark">
+            <summary>
+            删除标记(2,锁定，1正常,0删除)
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.CreateUserName">
+            <summary>
+            创建用户姓名
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.ModifyDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.ModifyUserId">
+            <summary>
+            修改用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.ModifyUserName">
+            <summary>
+            修改用户名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.User_Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfo.ExpireTime">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_UserInfoUserGroup">
+            <summary>
+            用户信息角色分组
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfoUserGroup.UserInfoUserGroup_ID">
+            <summary>
+            用户信息角色组ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfoUserGroup.User_ID">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfoUserGroup.UserGroup_ID">
+            <summary>
+            用户组ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfoUserGroup.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfoUserGroup.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserInfoUserGroup.CreateUserName">
+            <summary>
+            创建用户名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_UserRight">
+            <summary>
+            用户权限
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserRight.UserRight_ID">
+            <summary>
+            用户权限ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserRight.User_ID">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserRight.Menu_Id">
+            <summary>
+            菜单ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserRight.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserRight.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserRight.CreateUserName">
+            <summary>
+            创建用户名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.Base_UserRole">
+            <summary>
+            用户角色
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserRole.UserRole_ID">
+            <summary>
+            用户角色ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserRole.User_ID">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserRole.Roles_ID">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserRole.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserRole.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Models.Base_UserRole.CreateUserName">
+            <summary>
+            创建用户名称
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Models.MenuType">
+            <summary>
+            菜单类型
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.MenuType.Button">
+            <summary>
+            按钮
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.MenuType.MenuSub">
+            <summary>
+            菜单子节点
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.MenuType.MenuRoot">
+            <summary>
+            菜单根节点
+            </summary>
+        </member>
+        <member name="F:GreenWhale.GasSystem.Models.MenuType.Root">
+            <summary>
+            根节点
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Areas.Coap.Models.Html">
+            <summary>
+            Html模型
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html">
+            <summary>
+            Html信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html.Html_ID">
+            <summary>
+            Html的ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html.Html_Name">
+            <summary>
+            Html文档名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html.CreateUserId">
+            <summary>
+            创建用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html.CreateUserName">
+            <summary>
+            创建用户名称
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html.ModifyUserId">
+            <summary>
+            修改用户ID
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html.ModifyUserName">
+            <summary>
+            修改用户
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html.Html_Remark">
+            <summary>
+            描述信息
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html.DeleteMark">
+            <summary>
+            删除标志
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html.Html_RelativePath">
+            <summary>
+            HTML的相对路径
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html.ParentId">
+            <summary>
+            父节点
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html.Text">
+            <summary>
+            Html的源码
+            </summary>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Areas.Coap.Models.EntityFramework.Base_Html.ModifyDate">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:GreenWhale.GasSystem.Areas.Coap.Models.NBCoapTest">
+            <summary>
+            NB气表账号
+            </summary>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Areas.Coap.Models.NBCoapTest.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            NB气表账号
+            </summary>
+            <param name="configuration">身份认证账号</param>
+        </member>
+        <member name="M:GreenWhale.GasSystem.Areas.Coap.Models.NBCoapTest.GetAuthorizationInformation">
+            <summary>
+            获取身份认证信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:GreenWhale.GasSystem.Areas.Coap.Models.NBCoapTest.IsDevelopment">
+            <summary>
+            是否为开发环境
+            </summary>
+        </member>
+        <member name="T:WebCore.Models.Helper.HtmlHelper">
+            <summary>
+            处理本地Html的帮助类
+            </summary>
+        </member>
+        <member name="M:WebCore.Models.Helper.HtmlHelper.FileToString(System.String)">
+            <summary>
+            从相应地址读取文件
+            </summary>
+            <param name="filePath">文件地址</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebCore.Models.Helper.HtmlHelper.SaveFileToAddress(System.String,System.String)">
+            <summary>
+            保存Html文件
+            </summary>
+            <param name="dataStr">文件的源码</param>
+            <param name="filePath">文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebCore.Models.Helper.HtmlHelper.DeleteFile(System.String)">
+            <summary>
+            删除Html文件
+            </summary>
+            <param name="filePath">文件路径</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
